@@ -18,6 +18,11 @@
   --color-gradient-hero: linear-gradient(135deg, #003049, #94B1C8);
 }
 
+/* 전역 폰트 */
+body {
+  font-family: 'Pretendard', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
 /* CSS 초기화 */
 * {
   box-sizing: border-box;
