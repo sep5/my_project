@@ -23,6 +23,24 @@ body {
   font-family: 'Pretendard', 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
+/* 원형 타이포 회전 애니메이션 */
+@keyframes rotate-cw {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.circle-rotate {
+  animation: rotate-cw 28s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.circle-rotate-reverse {
+  animation: rotate-cw 18s linear infinite reverse;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
 /* CSS 초기화 */
 * {
   box-sizing: border-box;
